@@ -1,18 +1,12 @@
-#Helloworld Programs
+# Helloworld Programs
 ![helloworld](helloworld.png)
 We list below Helloworld programs for different programming languages, i.e. programs that print "Hello, World!". The
 specified compiler or interpreter is required for each programming languages.
 The table below summarizes the programs:
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-1/910/26/24, 10:32 AM
-Language
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-Language (Spec) Site
-Section
-Build / RunDebian / Ubuntu
-ToolchainPackages
-CThe Standard - CCGCCbuild-essential
-C++The Standard - C++C++GCC / G++build-essential , g++
+
+| Language | Language (Spec) Site | Section | Build / RunDebian / Ubuntu | ToolchainPackages |
+| C | [The Standard - C] | [C] | GCC | `build-essential` |
+| C++ | [The Standard - C++] | [C++] | GCC / G++ | `build-essential` , `g++` |
 DlangD Programming Language:
 HomeDlangGCC / GDCbuild-essential , gdc
 GoThe Go Programming LanguageGoGogolang
