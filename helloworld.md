@@ -24,113 +24,146 @@ The table below summarizes the programs:
 #include <stdio.h>
 int main(void)
 {
-puts("Hello, World!");
-return 0;
+	puts("Hello, World!");
+	return 0;
 }
-Build with:
+```
+Build with:  
+```console
 gcc -Wall -o helloworld helloworld.c
-Run with:
+```
+Run with:  
+```console
 ./helloworld
 ```
-C++
+# C++
+```C++
 #include <iostream>
 int main()
 {
-std::cout << "Hello, World!" << std::endl;
-return 0;
+	std::cout << "Hello, World!" << std::endl;
+	return 0;
 }
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-3/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-Build with:
+```
+Build with:  
+```console
 g++ -Wall -o helloworld helloworld.cpp
-Run with:
+```
+Run with:  
+```console
 ./helloworld
-Dlang
+```
+# D
+```Dlang
 import std.stdio;
 void main()
 {
-writeln("Hello, World!");
+	writeln("Hello, World!");
 }
-Build with:
+```
+Build with:  
+```console
 gdc -Wall -o helloworld helloworld.cpp
-Run with:
+```
+Run with:  
+```console
 ./helloworld
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-4/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-Go
+```
+# Go
+```Go
 package main
 import "fmt"
 func main() {
-fmt.Println("Hello, World!")
+	fmt.Println("Hello, World!")
 }
-Build and run with:
+```
+Build and run with:  
+```console
 go run helloworld.go
-Rust
+```
+# Rust
+```Rust
 fn main() {
-println!("Hello, World");
+	println!("Hello, World");
 }
-Build with:
+```
+Build with:  
+```console
 rustc hello.rs
-Run with:
+```
+Run with:  
+```console
 ./helloworld
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-5/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-Java
+```
+# Java
+```Java
 public class HelloWorld {
-public static void main(String[] args) {
-System.out.println("Hello, World!");
+	public static void main(String[] args) {
+		System.out.println("Hello, World!");
+	}
 }
-}
-Build with:
+```
+Build with:  
+```console
 javac HelloWorld.java
-Run with:
+```
+Run with:  
+```console
 java HelloWorld
-x86_64 Assembly
+```
+# x86_64 Assembly
+
 Build with:
+```console
 TODO
-Run with:
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-6/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
+```
+Run with:  
+```console
 ./helloworld
+```
 TODO
-ARM64 Assembly
+
+# ARM64 Assembly
+
 Build with:
+```console
 TODO
+```
 Run with:
+```console
 ./helloworld
-Bash
+```
+# Bash
+```console
 echo "Hello, World!"
+```
 Run with:
+```console
 bash helloworld.sh
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-7/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-Python
+```
+# Python
+```Python
 print("Hello, World!")
+```
 Run with:
+```console
 python helloworld.py
-Ruby
+```
+# Ruby
+```Ruby
 puts "Hello, World!"
+```
 Run with:
+```console
 ruby helloworld.rb
-PHP
+```
+# PHP
+```PHP
 <?php
 echo "Hello, World!"
 ?>
+```
 Run with:
+```console
 ./helloworld
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-8/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-Perl
-print("Hello, World!\n")
-Run with:
-perl helloworld.pl
-Lua
-print("Hello, World!")
-Run with:
-lua helloworld.lua
+```
