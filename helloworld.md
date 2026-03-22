@@ -1,39 +1,26 @@
 # Helloworld Programs
 ![helloworld](helloworld.png)  
-We list below Helloworld programs for different programming languages, i.e. programs that print "Hello, World!". The
-specified compiler or interpreter is required for each programming languages.  
-The table below summarizes the programs:
+We list below Helloworld programs for different programming languages, i.e. programs that print "Hello, World!".  
+Thespecified compiler or interpreter is required for each programming languages.  
+The table below summarizes the programs:  
 
 | Language | Language (Spec) Site | Section | Build / RunDebian / Ubuntu | ToolchainPackages |
 |----------|----------------------|---------|----------------------------|-------------------|
-| C | [The Standard - C] | [C] | GCC | `build-essential` |
-| C++ | [The Standard - C++] | [C++] | GCC / G++ | `build-essential` , `g++` |
-| Dlang | [D Programming Language:Home] | [Dlang] | GCC / GDC | `build-essential` , `gdc` |
-| Go | [The Go Programming Language] | [Go] | Go | `golang` |
-| Rust | [Rust Programming Language] | [Rust] | Rust | `(Crate)rustlang` |
-| Java | [Java Programming Language] | [Java] | JDK | `openjdk-17-jdk` |\
-| x86_64  assembly | [x86 and amd64 instructionreferencex] | [86_64 Assembly] | GCC / GAS | `build-essential` | 
-ARM64
-assemblyArm A64 Instruction Set
-ArchitectureARM64
-AssemblyGCC / GAS
-(AArch64)build-essential
-BashBash Reference ManualBashBashbash
-PythonWelcome to Python.orgPythonPythonpython
-RubyRuby Programming LanguageRubyRubyruby
-PHPPHP: Hypertext PreprocessorPHPPHPphp
-PerlPerlperl
-LuaLualua
-Perl
-Lua
-The Perl Programming
-Language
-The Programming Language
-Lua
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md
-2/910/26/24, 10:32 AM
-workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-C
+| C | [The Standard - C]() | [C](#C) | GCC | `build-essential` |
+| C++ | [The Standard - C++]() | [C++](#C++) | GCC / G++ | `build-essential` , `g++` |
+| Dlang | [D Programming Language:Home]() | [Dlang](#D) | GCC / GDC | `build-essential` , `gdc` |
+| Go | [The Go Programming Language]() | [Go](#Go) | Go | `golang` |
+| Rust | [Rust Programming Language]() | [Rust](#Rust) | Rust | `(Crate)rustlang` |
+| Java | [Java Programming Language]() | [Java](#Java) | JDK | `openjdk-17-jdk` |
+| x86_64 assembly | [x86 and amd64 instructionreferencex]() | [86_64 Assembly](#Asm) | GCC / GAS | `build-essential` | 
+| ARM64 assembly | [Arm A64 Instruction Set Architecture]() | [ARM64 Assembly](#ARM64) | GCC / GAS(AArch64) | `build-essential` |
+| Bash | [Bash Reference Manual]() | [Bash](#Bash) | Bash | `bash` |
+| Python | [Welcome to Python.org]() | [Python](#Python) | Python | `python` |
+| Ruby | [Ruby Programming Language]() | [Ruby](#Ruby) | Ruby | `ruby` |
+| PHP | [PHP: Hypertext Preprocessor]() | [PHP](#PHP) | PHP | `php` |
+
+## C
+```C
 #include <stdio.h>
 int main(void)
 {
@@ -44,6 +31,7 @@ Build with:
 gcc -Wall -o helloworld helloworld.c
 Run with:
 ./helloworld
+```
 C++
 #include <iostream>
 int main()
