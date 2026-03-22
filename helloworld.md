@@ -1,21 +1,18 @@
 # Helloworld Programs
-![helloworld](helloworld.png)
+![helloworld](helloworld.png)  
 We list below Helloworld programs for different programming languages, i.e. programs that print "Hello, World!". The
-specified compiler or interpreter is required for each programming languages.
+specified compiler or interpreter is required for each programming languages.  
 The table below summarizes the programs:
 
 | Language | Language (Spec) Site | Section | Build / RunDebian / Ubuntu | ToolchainPackages |
+|----------|----------------------|---------|----------------------------|-------------------|
 | C | [The Standard - C] | [C] | GCC | `build-essential` |
 | C++ | [The Standard - C++] | [C++] | GCC / G++ | `build-essential` , `g++` |
-DlangD Programming Language:
-HomeDlangGCC / GDCbuild-essential , gdc
-GoThe Go Programming LanguageGoGogolang
-RustRust Programming LanguageRustRust (Crate)rustlang
-JavaJava Programming LanguageJavaJDKopenjdk-17-jdk
-x86_64
-assemblyx86 and amd64 instruction
-referencex86_64
-AssemblyGCC / GASbuild-essential
+| Dlang | [D Programming Language:Home] | [Dlang] | GCC / GDC | `build-essential` , `gdc` |
+| Go | [The Go Programming Language] | [Go] | Go | `golang` |
+| Rust | [Rust Programming Language] | [Rust] | Rust | `(Crate)rustlang` |
+| Java | [Java Programming Language] | [Java] | JDK | `openjdk-17-jdk` |\
+| x86_64  assembly | [x86 and amd64 instructionreferencex] | [86_64 Assembly] | GCC / GAS | `build-essential` | 
 ARM64
 assemblyArm A64 Instruction Set
 ArchitectureARM64
